@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "557471165917",
+    "firebase_url": "https://trade-83349.firebaseio.com",
+    "project_id": "trade-83349",
+    "storage_bucket": "trade-83349.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557471165917:android:cdf5f070d8ba222a",
+        "android_client_info": {
+          "package_name": "com.example.messias.trade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557471165917-313lii2s0jiik5qv2g89l77b8ob7o6s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB54zsILfid7MdI7OKH-9Ziz6ePat3p-M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

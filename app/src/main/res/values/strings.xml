@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Trade</string>
+    <string name="facebook_app_id">206991873063067</string>
+    <string name="cancel">Cancelou</string>
+    <string name="falhou">ERROOOOOOOU</string>
+    <string name="title_activity_home">Trade</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="logout">Sair</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="editNome">Nome</string>
+    <string name="editDescricao">Descrição</string>
+    <string name="editEstado">Estado de conservação</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="entrar">Entrar</string>
+    <string name="redirecionaLogin">Já é cadastrado? Faça o login</string>
+    <string name="redirecionaCadastrar">Não é cadastrado? Cadastre-se aqui</string>
+    <string name="redirecionaRecuperarSenha">Esqueceu a senha? Recupere-a aqui</string>
+    <string name="recuperar">Recuperar senha</string>
+    <string name="erro">Ocorreu um erro!</string>
+    <string name="emailVazio">Preencha o campo email</string>
+    <string name="senhaVazio">Preencha o campo senha</string>
+    <string name="recuperarSenha">Verifique sua caixa de entrada e siga as instruções</string>
+    <string name="confirmacaoLivro">Livro inserido com sucesso!</string>
+
+</resources>
