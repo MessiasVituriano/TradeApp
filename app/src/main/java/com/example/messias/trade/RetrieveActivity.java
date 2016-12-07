@@ -19,8 +19,7 @@ import java.util.ArrayList;
 public class RetrieveActivity extends AppCompatActivity {
 
     private FirebaseUser user;
-    private DatabaseReference reference, livros;
-    private Livro livro;
+    private DatabaseReference reference, livros, usuarios;
     private ArrayList<Livro> arrayLivros = new ArrayList<Livro>();
 
     private ListView listaDeLivros;
@@ -32,6 +31,8 @@ public class RetrieveActivity extends AppCompatActivity {
 
         user = FirebaseAuth.getInstance().getCurrentUser();
         reference = FirebaseDatabase.getInstance().getReference();
+        livros = reference.child("livros");
+        usuarios = reference.child("usuarios");
 
         listaDeLivros = (ListView) findViewById(R.id.lista);
 
@@ -40,17 +41,27 @@ public class RetrieveActivity extends AppCompatActivity {
 
         listaDeLivros.setAdapter(adapter);
 
-        livros = reference.child("livros");
-
         livros.addValueEventListener(new ValueEventListener() {
+            String nome;
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
-                    Livro person = postSnapshot.getValue(Livro.class);
+                    Livro livro = postSnapshot.getValue(Livro.class);
+                    arrayLivros.add(livro);
+//                    Toast.makeText(RetrieveActivity.this, livro.getUserID().toString(), Toast.LENGTH_SHORT).show();
+                    usuarios.child(livro.getUserID().toString()).addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            nome = dataSnapshot.child("nome").getValue(String.class);
+                            Toast.makeText(RetrieveActivity.this, nome, Toast.LENGTH_SHORT).show();
+                        }
 
-                    arrayLivros.add(person);
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
                 }
-
             }
 
             @Override

@@ -29,5 +29,6 @@
     <string name="senhaVazio">Preencha o campo senha</string>
     <string name="recuperarSenha">Verifique sua caixa de entrada e siga as instruções</string>
     <string name="confirmacaoLivro">Livro inserido com sucesso!</string>
+    <string name="nome">Nome</string>
 
 </resources>

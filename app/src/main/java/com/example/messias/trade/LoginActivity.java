@@ -1,8 +1,12 @@
 package com.example.messias.trade;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -25,20 +29,28 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Arrays;
+
+import static android.location.LocationManager.PASSIVE_PROVIDER;
 
 public class LoginActivity extends AppCompatActivity {
 
     private CallbackManager callbackManager;
+
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener authStateListener;
-    private ProgressBar progressBar;
+    private DatabaseReference usuarios;
 
+    private ProgressBar progressBar;
     private ImageView imgLogo;
     private Button btnLogin, btnSingUp, btnForgotPass;
     private EditText editEmail, editPassword;
 
+    private LocationManager locationManager;
+    private double longitude,latitude;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +61,7 @@ public class LoginActivity extends AppCompatActivity {
         callbackManager = CallbackManager.Factory.create();
 
         firebaseAuth = FirebaseAuth.getInstance();
+        usuarios = FirebaseDatabase.getInstance().getReference().child("usuarios");
 
         imgLogo = (ImageView) findViewById(R.id.logo);
         btnLogin = (Button) findViewById(R.id.btnEntrar);
@@ -59,6 +72,22 @@ public class LoginActivity extends AppCompatActivity {
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
 
         imgLogo.setImageResource(R.drawable.ic_launcher);
+
+        locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        Location location = locationManager.getLastKnownLocation(PASSIVE_PROVIDER);
+
+        longitude = location.getLongitude();
+        latitude = location.getLatitude();
 
         final LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
         loginButton.setReadPermissions(Arrays.asList("public_profile", "user_friends", "email", "user_birthday"));
@@ -142,6 +171,18 @@ public class LoginActivity extends AppCompatActivity {
                 if(!task.isSuccessful()){
                     Toast.makeText(LoginActivity.this, R.string.falhou, Toast.LENGTH_SHORT).show();
                 }
+                String userID = task.getResult().getUser().getUid();
+                String nome = task.getResult().getUser().getDisplayName();
+                String email = task.getResult().getUser().getEmail();
+
+                DatabaseReference usuario = usuarios.child(userID);
+
+                usuario.child("nome").setValue(nome);
+                usuario.child("email").setValue(email);
+                usuario.child("lat").setValue(latitude);
+                usuario.child("long").setValue(longitude);
+                usuario.child("distancia").setValue("100");
+
                 progressBar.setVisibility(View.GONE);
                 findViewById(R.id.login_button).setVisibility(View.VISIBLE);
 
@@ -184,9 +225,7 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.makeText(LoginActivity.this, R.string.erro,
                                     Toast.LENGTH_SHORT).show();
                         }
-
                         progressBar.setVisibility(View.GONE);
-
                     }
                 });
     }

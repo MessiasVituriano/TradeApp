@@ -3,30 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_6fc32f9829b294c5698b8d5bacc0b77f09ca916c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_c07295e1d1f39e6636a48328c76a7c88d75d8b25\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_eb34ca674c230e770650423b1422d62d257a1869\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,30 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Messias Vituriano\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_d3bad071f2e24bd6d82e4eee8e93dd23ed7116a1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_90a755aaa0a24b109b91a4d4d1ebd24f8ab066d2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_065c1f3e328b0411d899377ef2cb07dde8e5cca3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,30 +39,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_d8a51e95eed5f7f16c418fce96efa6d2f9b2e9c4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="ac8365c87591065db07f7bac8551504504832cd4">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.1_76835c7e434fe62e316868bcf101fd6aa68edf0e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.18.0_b230dcb34b0526107c937e4b8d21788a7f707f70\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -129,48 +75,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_1f9b71a0de5e25a0ce4ba84ee7e08b64286436e6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_dba225e6ee78c05f331a488b9b1facd8038a0762\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="207e02240bc441cc5fc9e22386f663b2605283eb">
+        sha1="d25215367e4b10a71cea2e76944a17538d73aac5">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cd3064227bb9776692998dee77094294ec90849a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3f47cae656c1d21ee712b1d55e6bd91de577115b">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a230bf727cb6dca5b1f53d94a69411c8af70ce57\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_90388c93adb8ad4f182e07dd08d9c3a28572fe75\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,15 +93,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_bf72e9978479dcbc5b77ccdf518b4235b625c5ed\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -201,57 +102,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.6.1_dd8679397b2e1653e0493aad6108cf4cdcd75c8e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_5e8c9e7561fe492ad90cc8f14798965d8ca9d0e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_bf0b2fc0b4a30e0b04bf31d3c0c2ba86eedfbbae\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_9c82231869108113ee9392f313adb7e6c2b5b18f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_605fb7c35308d95290a340b1cd1e93f963915b88\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_b9f3fd876fbb9cb922b3895b5b875562b424d411\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -273,30 +129,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_53dd530a7d190bc70c3315f92a52ec1fa221f236\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_ffe2c70b439a430de63ddc15b282471f02f5e11e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_1857b682b24f8395e583e5befaefabd5ed91aafa\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -324,6 +162,177 @@
         revision="24.0.2"
         sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_106c82f49acf4d72dbdc680d6606a9e802655d39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_6fc32f9829b294c5698b8d5bacc0b77f09ca916c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_eb34ca674c230e770650423b1422d62d257a1869\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_d3bad071f2e24bd6d82e4eee8e93dd23ed7116a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_065c1f3e328b0411d899377ef2cb07dde8e5cca3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_d8a51e95eed5f7f16c418fce96efa6d2f9b2e9c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.18.0_b230dcb34b0526107c937e4b8d21788a7f707f70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_1f9b71a0de5e25a0ce4ba84ee7e08b64286436e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_dba225e6ee78c05f331a488b9b1facd8038a0762\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="18bceb7bb8f77e31bdcb65b7640f2bc94e831336">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a230bf727cb6dca5b1f53d94a69411c8af70ce57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_90388c93adb8ad4f182e07dd08d9c3a28572fe75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.6.1_2623a2a1ed6db3a813e033364caef6d3a079bf28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_bf72e9978479dcbc5b77ccdf518b4235b625c5ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.6.1_dd8679397b2e1653e0493aad6108cf4cdcd75c8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_5e8c9e7561fe492ad90cc8f14798965d8ca9d0e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_605fb7c35308d95290a340b1cd1e93f963915b88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_9c82231869108113ee9392f313adb7e6c2b5b18f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_b9f3fd876fbb9cb922b3895b5b875562b424d411\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_53dd530a7d190bc70c3315f92a52ec1fa221f236\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_1857b682b24f8395e583e5befaefabd5ed91aafa\classes.dex" />
     </item>
     <item
         is-multidex="true"
