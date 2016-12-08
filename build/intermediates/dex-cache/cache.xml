@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d25215367e4b10a71cea2e76944a17538d73aac5">
+        sha1="85b0148e16958c051070a8f3dd57bdff277bc71f">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cd3064227bb9776692998dee77094294ec90849a\classes.dex" />
     </item>
     <item
@@ -153,6 +153,24 @@
         revision="24.0.2"
         sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.6.1_1706ef7ad1cbe8379a7320a4ea87b95a6fd79b9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.6.1_6035a40b2b6be2e5099ffea43eaf686702aaf3c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.6.1_d3f4cf45759796da075cb89ac9c7fce8827ddb5c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -241,7 +259,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="18bceb7bb8f77e31bdcb65b7640f2bc94e831336">
+        sha1="17b607c6795f4e32217e3f5d82f09d160e80afca">
         <dex dex="C:\Users\Messias Vituriano\AndroidStudioProjects\Trade\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a230bf727cb6dca5b1f53d94a69411c8af70ce57\classes.dex" />
     </item>
     <item
