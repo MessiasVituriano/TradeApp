@@ -7,16 +7,16 @@ package com.example.messias.trade;
 public class Usuario {
     String nome;
     String email;
-    String lat;
-    String lon;
-    String distancia;
+    Double lat;
+    Double lon;
+    int distancia;
 
 
     public Usuario(){
 
     }
 
-    public Usuario(String nome, String email, String lat, String lon, String distancia){
+    public Usuario(String nome, String email, double lat, Double lon, int distancia){
         this.nome = nome;
         this.email = email;
         this.lat = lat;
@@ -32,15 +32,13 @@ public class Usuario {
         this.email = email;
     }
 
-    public void setLat(String lat) {
-        this.lat = lat;
-    }
+    public void setLat(Double lat) { this.lat = lat; }
 
-    public void setLon(String lon) {
+    public void setLon(Double lon) {
         this.lon = lon;
     }
 
-    public void setDistancia(String distancia) {
+    public void setDistancia(int distancia) {
         this.distancia = distancia;
     }
 
@@ -52,15 +50,17 @@ public class Usuario {
         return email;
     }
 
-    public String getLat() {
+    public Double getLat() {
         return lat;
     }
 
-    public String getLon() {
+    public Double getLon() {
         return lon;
     }
 
-    public String getDistancia() {
+    public int getDistancia() {
         return distancia;
+
+
     }
 }
